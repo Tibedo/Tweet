@@ -1,16 +1,19 @@
 body {
- 
+ display: flex;
+ margin-top: 200px;
 }
 
 article {
     display: flex;
     flex-flow: column;
-    width: 500px;
+    width: 600px;
     align-items: center;
     background-color: black;
     color: white;
     position: relative;
-    margin: auto auto;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
 }
 
 .head {
@@ -21,7 +24,7 @@ article {
 }
 
 .hopper {
-    width: 18%;
+    width: 65px;
     border-radius: 50px;
 
 }
@@ -29,9 +32,32 @@ article {
 .person{
     display: block;
     float: right;
-    margin-right: 250px;
+    margin-right: 350px;
+    font-size: 75%;
+    padding-left: 20px;
 }
 
+.main {
+    margin-left: 10px;
+    margin-top: 5px;
+}
 
+.like {
+    display: flex;
+    margin-right: 2px;
+    
+}
 
+.like>p {
+    padding: 0 40px;
+}
+
+.button {
+    display: flex;
+   
+}
+
+.button>i {
+    padding: 0 70px;
+}
 
