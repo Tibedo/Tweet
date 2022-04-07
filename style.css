@@ -59,5 +59,19 @@ article {
 
 .button>i {
     padding: 0 70px;
+    padding-bottom: 10px;
 }
 
+#grace, #iphone, .link {
+    color: gray;
+}
+
+
+#iphone, .link {
+    font-size: 14px;
+}
+
+p>b {
+    font-size: 18px;
+    color: white;
+}
