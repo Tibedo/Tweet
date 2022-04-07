@@ -1,0 +1,37 @@
+body {
+ 
+}
+
+article {
+    display: flex;
+    flex-flow: column;
+    width: 500px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    margin: auto auto;
+}
+
+.head {
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+   
+}
+
+.hopper {
+    width: 18%;
+    border-radius: 50px;
+
+}
+
+.person{
+    display: block;
+    float: right;
+    margin-right: 250px;
+}
+
+
+
+
